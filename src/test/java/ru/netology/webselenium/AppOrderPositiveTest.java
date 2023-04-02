@@ -29,7 +29,7 @@ public class AppOrderPositiveTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
-        driver.get("http://localnost:9999");
+        driver.get("http://localhost:9999");
     }
 
     @AfterEach
